@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.history
+.yalc
+.eslintcache
+package-lock.json
+yalc.lock
+yarn-error.log
+.vscode

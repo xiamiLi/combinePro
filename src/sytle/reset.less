@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+// app 
+@media  screen and ( max-width: 768px ) {
+  .base-size {
+    font-size: 8px;
+  }
+}
+//  ipd
+@media  only screen  and (min-width:768px) and ( max-width: 980px ) {
+  .base-size {
+    font-size: 12px;
+  }
+}
+// small pc 
+@media only screen and (min-width:980px) and (max-width:1920px){
+  .base-size {
+    font-size: 14px;
+  }
+}
+// 1920
+@media only screen and (min-width:1920px) and (max-width:2880px){
+  .base-size {
+    font-size: 19.8px;
+  }
+}
+
+// >2880
+@media screen and ( min-width: 2880px ) {
+  .base-size {
+    font-size: 30px;
+  }
+}
